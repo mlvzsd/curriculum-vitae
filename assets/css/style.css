@@ -16,6 +16,8 @@ body {
 img {
   max-width: 100%; }
 
+
+
 a:focus,
 input:focus,
 textarea:focus,
@@ -1011,6 +1013,13 @@ p {
     .single_project .project_content p {
       margin-top: 5px; }
 
+@media (max-width: 768px) {
+  #home {
+    height: 70vh!important;
+  }
+}
+  
+
 .project_active .slick-arrow {
   position: absolute;
   bottom: -80px;
@@ -1467,4 +1476,5 @@ p {
       @media (max-width: 767px) {
         .footer_content .footer_menu li a {
           font-size: 15px; } }
+
 
